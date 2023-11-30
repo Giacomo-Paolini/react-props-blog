@@ -9,7 +9,8 @@ export default function card(props) {
         <p className="my-4 text-sm md:text-base">{props.content}</p>
         <span>{props.tags}</span>
         <span>{props.published}</span>
-        <button className="bg-orange-400 p-2 text-sm text-white">
+        <br />
+        <button className="mt-4 bg-orange-400 p-2 text-sm text-white">
           LEGGI DI PIÙ
         </button>
       </div>
