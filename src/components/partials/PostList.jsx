@@ -11,7 +11,6 @@ export default function PostList() {
           title={post.title}
           content={post.content}
           tags={post.tags}
-          published={post.published}
         />
       ),
   );
